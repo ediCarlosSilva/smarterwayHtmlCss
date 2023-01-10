@@ -16,3 +16,38 @@ h1 {
 .typewriter {
     font-family: "Courier New", Courier, monospace;
 }
+
+.emphasized {
+    font-style: italic;
+}
+
+.standout {
+    color: #cc0000;
+}
+
+h2 {
+    /* letter-spacing: .1em; */
+    word-spacing: 1em;
+}
+
+p.more-readable {
+    line-height: 1. 2em;
+}
+
+p.spacey {
+    letter-spacing: 1em;
+    word-spacing: 1em;
+    line-height: 2.4em;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p.pretty {
+    text-align: justify;
+  }
+
+  h3 {
+    text-align: center;
+  }
