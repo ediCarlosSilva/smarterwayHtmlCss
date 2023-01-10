@@ -25,11 +25,6 @@ h1 {
     color: #cc0000;
 }
 
-h2 {
-    /* letter-spacing: .1em; */
-    word-spacing: 1em;
-}
-
 p.more-readable {
     line-height: 1. 2em;
 }
@@ -50,4 +45,48 @@ p.spacey {
 
   h3 {
     text-align: center;
+  }
+
+  p.tabbed {
+    text-indent: 1.5em;
+  }
+  blockquote {
+    font-size: .9em;
+    color: grey;
+  }
+
+  p.offset {
+    margin: 2em;
+  }
+
+  .enclosed {
+    border: 4px solid red;
+    background-color: #ccc;
+    padding: .5em;
+  }
+
+  h4, p.mid {
+    text-align: center;
+  }
+
+  h2#warm {
+    color: orange;
+  }
+
+  div#midpage {
+    margin: 0 3em 0 3em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  img.has-own-line {
+    display: block;
+  }
+
+  img.inset {
+    margin-left: 5em;
+  }
+
+  img.mid {
+    display: block;
+    margin: 0 auto;
   }
