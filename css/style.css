@@ -90,3 +90,38 @@ p.spacey {
     display: block;
     margin: 0 auto;
   }
+
+  img.fl {
+    float: left;
+    margin-right: .5em;
+  }
+
+  p.clr {
+    clear: both;
+  }
+
+  a {
+    color: grey;
+    
+}
+
+  a:hover {
+    color: orange;
+  }
+
+  li {
+    margin-bottom: 0.75em;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  div#midpage p {
+    font-size: 2em;
+  }
+
+  div#main > div {
+    color: blue;
+    font-size: 1.5em;
+  }

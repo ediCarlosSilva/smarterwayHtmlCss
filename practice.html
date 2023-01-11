@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-      <h1 class="emphasized">Why I love Taos, N.M.</h1>
+      <h1 class="emphasized" id="topo">Why I love Taos, N.M.</h1>
       <h2>Sign up for the course now.</h2>
       <p class="standout">Taos is a small town in the mountains of northern New Mexico. It's cooler
   than the southern part of the state, because it's 7,000 feet high. Many of the
@@ -67,5 +67,128 @@
       <img class="has-own-line inset" src="http://www.asmarterwaytolearn.com/loris.jpg" alt="The other Loris" width="125" height="99">
       <p>This is a paragraph.</p>
       <img class="mid" src="http://www.asmarterwaytolearn.com/loris.jpg" alt="The Loris" width="250" height="197">
+      <img class="fl" src="http://www.asmarterwaytolearn.com/loris.jpg" alt="The Loris" width="125" height="99">
+      <p>Deep-rooted beliefs about the supernatural powers of slow lorises, </p>
+
+      <p class="clr">We don't want this paragraph to wrap. We want it below the picture.</p>
+
+      <a href="http://www.stackoverflow.com">Stack Overflow</a>
+
+      <p>You may wonder why there are so many exercises to do. Here's the <a href="http://asmarterwaytolearn.com/why-exercises.html">explanation.</a></p>
+
+      <p>Link para o topo <a href="#topo">Jump to the top of the page.</a></p>
+
+      <p>A good place to start your search for learning materials is <a href="http://www.asmarterwaytolearn.com" target="_blank">A Smarter Way to Learn</a></p>
+
+      <a href="http://www.asmarterwaytolearn.com"><img src="http://www.asmarterwaytolearn.com/robo_guy.png" alt=""></a>
+
+      <img src="http://www.asmarterwaytolearn.com/stooges.jpg" usemap="#stooges">
+        <map name="stooges">
+          <area shape="circle" alt="Moe" coords="56,56,47" href="https://www.google.com/?gws_rd=ssl#q=moe+3+stooges">
+          <area shape="circle" alt="Curly" coords="126,93,31" href="https://www.google.com/?gws_rd=ssl#q=curly+3+stooges">
+          <area shape="circle" alt="Larry" coords="208,66,39" href="https://www.google.com/?gws_rd=ssl#q=larry+3+stooges">
+        </map>
+
+        <p>Lista ordenada e não ordenada.</p>
+        <ol>
+          <li>Eat.</li>
+          <li>Drink.</li>
+          <li>Be merry.</li>
+      </ol>
+      <ul>
+          <li>Animal</li>
+          <li>Vegetable</li>
+          <li>Mineral</li>
+      </ul>
+
+      <div id="main">
+        <div>
+          <div>
+          [some content]
+          </div>
+          [some content]
+          <div>
+          [some content]
+          </div>
+        </div>
+        <div>
+          [some content]
+          <div>
+          [some content]
+          </div>
+        </div>
+
+      </div>
+
+      <table>
+        <tr>
+          <td>Row 1, column 1</td>
+          <td>Row 1, column 2</td>
+        </tr>
+        <tr>
+          <td>Row 2, column 1</td>
+          <td>Row 2, column 2</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Dog</th>
+          <th scope="col">Cat</th>
+        </tr>
+        <tr>
+          <th scope="row">Species</th>
+          <td>Canine</td>
+          <td>Feline</td>
+        </tr>
+        <tr>
+          <th scope="row">Sound</th>
+          <td>Bark</td>
+          <td>Meow</td>
+        </tr>
+        <tr>
+          <th scope="row">Immature</th>
+          <td>Puppy</td>
+          <td>Kitten</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>Row 1, column 1</td>
+          <td>Row 1, column 2</td>
+        </tr>
+        <tr>
+          <td colspan="2">Row 2, columns 1 and 2</td>
+        </tr>
+      </table>
+      <table id="t4">
+        <tr>
+          <td>Films</td>
+          <td>Novels</td>
+        </tr>
+        <tr class="even">
+          <td>Stage productions</td>
+          <td>Collections of short stories</td>
+        </tr>
+      </table>
+      <form>
+        <fieldset>
+          <legend>First group</legend>
+            <input type="text" name="surname" size="25" maxlength="40">
+            <textarea name="message" rows="8" cols="30"></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Second group</legend>
+            <label><input type="radio" name="binary" value="yes"> Yes</label>
+            <label><input type="radio" name="binary" value="no"> No</label>
+            <input type="checkbox" name="c1" id="f" value="first"> <label for="f">Have first name</label>
+            <input type="checkbox" name="c1" id="l" value="last"> <label for="l">Have last name</label>
+            <select name="current-state">
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Send">
+      </form> 
   </body>
 </html>
