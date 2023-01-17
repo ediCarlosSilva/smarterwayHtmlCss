@@ -125,3 +125,8 @@ p.spacey {
     color: blue;
     font-size: 1.5em;
   }
+
+  input[type="text"], textarea {
+    font-size: 2em;
+    padding: .25em;
+  }
