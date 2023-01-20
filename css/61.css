@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+}
+
+main {
+    background: aquamarine;
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#content {
+    background: white;
+    width: 68%;
+    float: left;
+    border: 1px solid black;
+}
+
+#sidebar {
+    background: white;
+    width: 29%;
+    float: right;    
+    border: 1px solid black;
+}
+
+.no-wrap {
+    clear: both;
+}

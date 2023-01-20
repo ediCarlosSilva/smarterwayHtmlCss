@@ -149,3 +149,31 @@ p.spacey {
   .no-wrap {
     clear: both;
   }
+
+  div#banner {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ccff33;
+  }
+
+div#banner img, div#spaceer img {
+  float: left;
+  margin: 1em;
+}
+
+  div#banner h2, div#spacer h2 {
+    padding-top: .15em;
+  }
+
+  div#spacer {
+    width: 100%;
+    visibility: hidden;
+  }
+
+  p.clearFloat {
+    clear:both;
+  }
+
+
