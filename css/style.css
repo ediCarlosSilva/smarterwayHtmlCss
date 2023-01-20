@@ -130,3 +130,22 @@ p.spacey {
     font-size: 2em;
     padding: .25em;
   }
+
+  div#narrow {
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  div#content {
+    width: 68%;
+    float: left;
+  }
+
+  div#sidebar {
+    width: 29%;
+    float: right;
+  }
+
+  .no-wrap {
+    clear: both;
+  }

@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+}
+
+main {
+    background: aquamarine;
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    width: 90%;
+    margin: 1em auto;
+    border: 1px solid black;
+    background: white;
+}
