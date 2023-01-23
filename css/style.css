@@ -176,4 +176,44 @@ div#banner img, div#spaceer img {
     clear:both;
   }
 
+  div#navbar {
+    clear: both;
+    /* background-color: blue; */
+    display: inline-block;
+    width: 100%;
+  }
 
+  div#navbar ul {
+      list-style-type: none;
+      /* padding-left: 0; */
+  }
+
+  div#navbar ul li {
+    display: inline;
+    width: 19%;
+    float: left;
+    margin-right: .5em;
+    text-align: center;
+  }
+
+  div#navbar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    text-decoration: none;
+    /* color: white; */
+    display: block;
+    padding: .75em;
+  }
+
+  li.changeBackground {
+    background-color: blue;
+  }
+
+  li.changeBackground:hover {
+    background-color: lightblue;
+  }
+
+  li.changeBackground:active {
+    background-color: darkblue;
+  }
