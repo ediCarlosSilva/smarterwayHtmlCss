@@ -229,10 +229,19 @@ div#banner img, div#spaceer img {
 
   div.narrow {
     width: 50%;
-    margin: 0 auto;
+    position: relative;
+    left: 20%;
   }
 
   p.narrower {
     width: 50%;
     text-align: center;
+  }
+  
+  div#bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
   }
